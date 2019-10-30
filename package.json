@@ -1,0 +1,20 @@
+{
+  "name": "fcc-choropleth-map",
+  "version": "1.0.0",
+  "description": "A Free Code Camp data visualization project",
+  "main": "index.html",
+  "author": "skaparate",
+  "license": "MIT",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4"
+  },
+  "dependencies": {
+    "d3": "^5.12.0",
+    "d3-scale-chromatic": "^1.5.0",
+    "topojson": "^3.0.2"
+  },
+  "scripts": {
+    "start": "parcel index.html --open",
+    "build": "parcel build index.html"
+  }
+}

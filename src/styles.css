@@ -1,0 +1,21 @@
+.wrapper {
+  background-color: #dedede;
+  padding: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.tooltip {
+  position: absolute;
+  pointer-events: none;
+  opacity: 0;
+  margin-left: 3px;
+  background-color: #403233;
+  color: #f19a3e;
+  padding: 15px;
+  font-size: 1.3rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.legend {
+  font-family: Arial, Helvetica, sans-serif;
+}
